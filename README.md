@@ -29,6 +29,8 @@ and to see estimated costs you need to execute in the terraform project folder t
 
 in file `vars.tfvars` - you can adjust parameters to your needs
 
+you need to export GITHUB_TOKEN secret value with ```export TF_VAR_GITHUB_TOKEN=<GITHUB_TOKEN_VALUE>```
+
 if all suits you - feel free to create resource with 
 ```terraform apply -var-file=vars.tfvars```
 
